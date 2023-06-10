@@ -1,0 +1,16 @@
+<html lang="en">
+<head><title>Home Page</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script th:src="@{/js/main.js}"></script>
+  <link rel="icon" type="image/png" th:href="@{/media/laundry08.png}" id="favicon"/>
+</head>
+<body>
+<h1>Hello !</h1>
+<p>Welcome to <span th:text="${appName}">Our App</span></p>
+<main id="main"></main>
+<footer id="footer">
+  <p>Credits</p>
+  <a href="https://www.flaticon.com/free-icons/washing-machine" title="washing machine icons">Washing machine icons created by Hilmy Abiyyu A. - Flaticon</a>
+</footer>
+</body>
+</html>
